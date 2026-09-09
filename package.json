@@ -1,0 +1,24 @@
+{
+  "name": "recuperacaonode",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AlexandreJacob97/recuperacaoNode#readme",
+  "bugs": {
+    "url": "https://github.com/AlexandreJacob97/recuperacaoNode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreJacob97/recuperacaoNode.git"
+  },
+  "license": "ISC",
+  "author": "Alexandre",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -- watch index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
