@@ -22,7 +22,7 @@ app.post("/api/celsius", (req, res) => {
     res.send({ Celsius: valor })
 })
 
-app.post("/api/kelvins", (req, res) => {
+app.post("/api/kelvin", (req, res) => {
     const cel = req.body.cel
     const valor = cel + 273.15
 
