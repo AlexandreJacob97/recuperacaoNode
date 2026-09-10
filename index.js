@@ -12,14 +12,13 @@ app.post("/api/fahrenheit", (req, res) => {
     const cel = req.body.cel
     const valor = (cel * 9 / 5) + 32
 
-
     res.send({ Fahrenheit: valor })
 })
 
 app.post("/api/celsius", (req, res) => {
     const fah = req.body.fah
     const valor = (fah - 32) * 5 / 9
-
+/
     res.send({ Celsius: valor })
 })
 
